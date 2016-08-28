@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Semana02Aula05ClienteMVC</string>
+
+    <string name="btnVoltar">Voltar</string>
+    <string name="btnSair">Sair</string>
+
+    <string name="meuProjeto">Curso Android 2016</string>
+
+    <string name="txtTitulo">Cadastro do Cliente</string>
+    <string name="txtNome">Nome Completo</string>
+    <string name="txtCidade">Cidade</string>
+    <string name="txtUF">UF</string>
+    <string name="txtProfissao">Profissão</string>
+    <string name="txtEmpresa">Nome da Empresa</string>
+    <string name="txtTelefone">Telefone</string>
+    <string name="txtEmail">E-mail</string>
+    <string name="btnSalvar">Salvar</string>
+    <string name="btnLimpar">Limpar</string>
+
+</resources>

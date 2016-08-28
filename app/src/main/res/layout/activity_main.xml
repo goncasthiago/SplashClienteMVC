@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="br.com.goncasthiago.semana02aula05clientemvc.MainActivity">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/left_padding_margin"
+            android:text="@string/txtTitulo"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/label_textotitulo_size"
+            android:fontFamily="cursive"/>
+
+        <TextView
+            android:id="@+id/txtNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/left_padding_margin"
+            android:text="@string/txtNome"
+            android:textSize="@dimen/label_texto_size"
+            />
+
+        <EditText
+            android:id="@+id/editNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/left_padding_margin"
+            android:inputType="textPersonName"/>
+
+        <TextView
+            android:id="@+id/txtCidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/left_padding_margin"
+            android:text="@string/txtCidade"
+            android:textSize="@dimen/label_texto_size" />
+
+        <EditText
+            android:id="@+id/editCidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/left_padding_margin"
+            android:inputType="textCapSentences"/>
+
+        <TextView
+            android:id="@+id/txtUF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/left_padding_margin"
+            android:text="@string/txtUF"
+            android:textSize="@dimen/label_texto_size" />
+
+        <EditText
+            android:id="@+id/editUF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/left_padding_margin"
+            android:maxLength="2"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/txtProfissao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/left_padding_margin"
+            android:text="@string/txtProfissao"
+            android:textSize="@dimen/label_texto_size" />
+
+        <EditText
+            android:id="@+id/editProfissao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/left_padding_margin"
+            android:inputType="textCapSentences"/>
+
+        <TextView
+            android:id="@+id/txtEmpresa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/left_padding_margin"
+            android:text="@string/txtEmpresa"
+            android:textSize="@dimen/label_texto_size" />
+
+        <EditText
+            android:id="@+id/editEmpresa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/left_padding_margin"
+            android:inputType="textCapSentences"/>
+
+        <TextView
+            android:id="@+id/txtTelefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/left_padding_margin"
+            android:text="@string/txtTelefone"
+            android:textSize="@dimen/label_texto_size" />
+
+        <EditText
+            android:id="@+id/editTelefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/left_padding_margin"
+            android:inputType="phone"/>
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/left_padding_margin"
+            android:text="@string/txtEmail"
+            android:textSize="@dimen/label_texto_size" />
+
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/left_padding_margin"
+            android:inputType="textWebEmailAddress"/>
+
+        <Button
+            android:id="@+id/btnSalvar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnSalvar" />
+
+        <Button
+            android:id="@+id/btnLimpar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnLimpar" />
+
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>
