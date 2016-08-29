@@ -34,6 +34,8 @@ public class ClienteController {
         this.cliente.setCidade("");
         this.cliente.setNome("");
         this.cliente.setUf("");
+
+
     }
 
     @Override

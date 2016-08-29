@@ -5,10 +5,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ScrollView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import br.com.goncasthiago.semana02aula05clientemvc.controller.ClienteController;
 import br.com.goncasthiago.semana02aula05clientemvc.model.Cliente;
+
+import static br.com.goncasthiago.semana02aula05clientemvc.R.layout.activity_main;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,15 +24,13 @@ public class MainActivity extends AppCompatActivity {
 
     Button btnSalvar, btnLimpar;
     EditText editNome, editCidade, editUF, editProfissao, editEmpresa, editTelefone, editEmail;
-
-
+    TextView txtTitulo;
+    ScrollView scrollviewform;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-
+        setContentView(activity_main);
 
         objCliente = new Cliente();
         clienteController = new ClienteController();
@@ -43,6 +46,8 @@ public class MainActivity extends AppCompatActivity {
         editEmpresa = (EditText) findViewById(R.id.editEmpresa);
         editTelefone = (EditText) findViewById(R.id.editTelefone);
         editEmail = (EditText) findViewById(R.id.editEmail);
+        txtTitulo = (TextView) findViewById(R.id.txtTitulo);
+        scrollviewform = (ScrollView) findViewById(R.id.scrollviewform);
 
         //Capturando o clique no botão btnSalvar
 
@@ -98,6 +103,10 @@ public class MainActivity extends AppCompatActivity {
         editEmpresa.setText("");
         editTelefone.setText("");
         editEmail.setText("");
+
+        editNome.requestFocus();
+        scrollviewform.fullScroll(ScrollView.FOCUS_UP);
+
 
 
     }

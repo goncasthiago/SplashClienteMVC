@@ -6,7 +6,7 @@
 
     <string name="meuProjeto">Curso Android 2016</string>
 
-    <string name="txtTitulo">Cadastro do Cliente</string>
+    <string name="txtTitulo">Cadastro de Cliente</string>
     <string name="txtNome">Nome Completo</string>
     <string name="txtCidade">Cidade</string>
     <string name="txtUF">UF</string>
