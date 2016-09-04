@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.goncasthiago.semana02aula05clientemvc.SplashActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/cliente" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/logo"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:padding="@dimen/left_padding_margin"
+        android:text="@string/txtTitulo"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/label_textotitulo_size" />
+
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/tituloSplash"
+        android:textAlignment="center"
+        android:textColor="@color/textoCinza" />
+
+</RelativeLayout>

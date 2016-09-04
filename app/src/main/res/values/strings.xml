@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Semana02Aula05ClienteMVC</string>
+    <string name="app_name">Splash - MVC</string>
 
     <string name="btnVoltar">Voltar</string>
     <string name="btnSair">Sair</string>
@@ -16,5 +16,6 @@
     <string name="txtEmail">E-mail</string>
     <string name="btnSalvar">Salvar</string>
     <string name="btnLimpar">Limpar</string>
+    <string name="tituloSplash">Carregando...</string>
 
 </resources>
